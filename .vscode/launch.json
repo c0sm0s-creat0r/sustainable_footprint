@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/benjamindennis/development/flutterapps/sustainable_footprint/windows/runner",
+      "program": "/Users/benjamindennis/development/flutterapps/sustainable_footprint/windows/runner/build/Debug/outDebug"
+    }
+  ]
+}

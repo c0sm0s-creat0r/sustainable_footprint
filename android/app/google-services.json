@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432749745245",
+    "project_id": "sustainabilitytoronto",
+    "storage_bucket": "sustainabilitytoronto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432749745245:android:349dbece1bf3d7e40129b4",
+        "android_client_info": {
+          "package_name": "com.example.sustainable_footprint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiRcIr7R5yHOu17dtqmnZ_2KqLz2PUhiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

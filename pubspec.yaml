@@ -1,0 +1,60 @@
+name: sustainable_footprint
+description: BUDL Application
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^5.0.1
+  diffutil_sliverlist: ^0.5.1
+  equatable: ^2.0.5
+  firebase_core: ^3.1.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.2.3
+
+  # flutter_survey: '^0.1.4'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+
+  # fonts:
+  #   - family: Helvetica-Now
+  #     fonts:
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-ThinItalic.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-ExtLtIta.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-LightItalic.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-MediumItalic.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-RegIta.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-BoldItalic.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-ExtBdIta.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-BlackItalic.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-ExtraLight.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Thin.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Light.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Medium.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Regular.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Bold.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-ExtraBold.ttf
+  #       - asset: assets/fonts/helvetica-now/HelveticaNowText-Black.ttf
